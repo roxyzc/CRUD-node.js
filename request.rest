@@ -1,0 +1,25 @@
+GET http://localhost:3000/api
+
+###
+GET http://localhost:3000/api/623d9a85f8017b9ebe846af2
+
+###
+POST http://localhost:3000/api/
+Content-Type: application/json
+
+{
+    "nama": "roxyzc1",
+    "pass": "test"
+}
+
+### 
+PATCH http://localhost:3000/api/623d9b346a334cd0844e8859
+Content-Type: application/json
+
+{
+    "nama": "roxyzc1",
+    "pass": "test"
+}
+
+###
+DELETE http://localhost:3000/api/623d9b346a334cd0844e8859
